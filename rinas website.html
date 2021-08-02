@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header> 
+<h1 style="border: 2px solid Violet; text-align:center; {background-color: blue;}" >Marina Cervantes </h1> 
+</header>
+<body style="background-color:rgb(125, 215, 243);">
+<p>Greetings yall! My given name is Marina,<br> 
+    but ever since I can remember I've always been called Rina,<br>
+    so you too can call me that if you like. </p>
+
+<h2> A Little Background</h2>
+<p>I grew up in the Sauk Valley area that consists of (Sterling, Rock Falls, and Dixon)<br>
+I graduated Highschool from Rock Falls.<br> I come from a big family. I have 4 brothers and 3 sisters.<br>
+<ul>
+    <li>Grace</li>
+    <li>Trinity</li>
+    <li>Juan</li>
+    <li>Andrew</li>
+    <li>Pepe</li>
+    <li>Tibs</li>
+    <li>Valeria</li>
+  </ul>
+I attempted going back to college for criminal justice, but that didnt work out.<br>
+ I've got a few credits from Sauk Valley Community College.
+</p>
+
+<h3> Hobbies/Interests</h3>
+<p>"IF YOU DONT USE IT, YOU'LL LOSE IT."<br> (I cant be sure who said that first but it sure seems to be correct)
+    and now I live by it.<br> I am a huge advocator on well-being and general fitness. I workout at least 5 days a week.<br>
+    I am also a BIG foodie!!! Fitness and food go hand in hand you know! I enjoy cooking and trying out new recipes.<br>
+    My favorites include:
+    <ul><li>pizza</li>
+        <li>steak tacos</li>
+        <li>salmon and any sauteed veggie</li>
+        <li>sushi</li>
+        <li>icecream cake</li>
+         </ul> 
+    Do you like tacos, pizza and/or sushi?
+    <form>
+        <input type="checkbox" id="food1" name="food1" value="tacos">
+        <label for="food1"> I like tacos</label><br>
+        <input type="checkbox" id="food2" name="food2" value="pizza">
+        <label for="food2"> I like pizza</label><br>
+        <input type="checkbox" id="food3" name="food3" value="sushi">
+        <label for="food3"> I like sushi</label>
+      </form> <br>
+
+I have a certificate for instructing yoga, so feel free to come to me for all your zen needs :D <br> I like conquering hard hikes
+ or leisurely walking through some nature. <a href=https://www.alltrails.com>Visit all trails.com</a> when in search of a hike !<br> 
+ Dylan and I have traveled for months at a time.<br> During this 
+ period we usually spend it out in nature, giving us the opportunity to see some beautiful sights and do some miraculous things.<br>
+ Heres a few pictures for your enjoyment but you could follow me on <a href=https://www.instagram.com/reenaa911/">instagram</a> to get more!
+ 
+ 
+ <div  class="w3-content w3-display-container">
+    <img class="mySlides" src="C:\Users\mcrin\Desktop\Coding Temple\photos\sanfran.jpg" style="width:40%">
+    <img class="mySlides" src="C:\Users\mcrin\Desktop\Coding Temple\photos\campfire.jpg" style="width:40%">
+    <img class="mySlides" src="C:\Users\mcrin\Desktop\Coding Temple\photos\niagra.jpg" style="width:40%">
+    <img class="mySlides" src="C:\Users\mcrin\Desktop\Coding Temple\photos\backpack.jpg" style="width:70%">
+<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script></p>
+
+<h4> Web Developing</h4>
+<p> I am interested in web developing for the sole purpose of it being a demanding field.<br>
+    I'm also trying to do something more with my life to have a sense of self-worth.<br>
+    I also want to be able to take care of my mom as she has done for me for so many years.<br> 
+    I also believe web developing is the way of the future and its something I want to be apart of.<br>
+</p>
+</body>
+</html>
